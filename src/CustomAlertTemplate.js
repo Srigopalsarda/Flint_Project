@@ -1,7 +1,12 @@
 import React from 'react';
 
+// creating a custom alert template
+
 const CustomAlertTemplate = ({ style, options, message, close }) => {
+
+
   // Define a variable to hold the border color based on the alert type
+
   let borderColor = '';
 
   if (options.type === 'success') {
